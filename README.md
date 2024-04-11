@@ -7,7 +7,7 @@ This webpage fetches data from the provided JSON files and uses this data to dis
 To run this webpage:
 
 1. Clone the repository by copying the following into your terminal : git clone https://github.com/eriolay/BirthByUsTakehome
-2. Open 'index.html' in your web browser.
+2. Open the 'index.html' file (which you can find wherever you cloned the repository to) in your web browser.
 
 
 **CONTACT**
