@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #BD4F5D, #EFB09C, #FFD3C3);
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+}
+
+body *not:(.heading-container, footer){
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    color: #000000;
+    line-height: 16.5px;
+}
+
+.heading-container{
+    justify-content: center;
+    text-align: left;
+    margin: 20px;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #550000;
+    line-height: 16.5px;
+}
+
+.sub-heading{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.post-container {
+    width: 100%; 
+    max-width: 1920px; /* This ensures the container doesn't get too wide on large screens */
+    display: flex;
+    flex-direction: column; /*This organizes the post boxes in a column */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.post {
+    background: #fff;
+    width: 335px;
+    height: 203px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.user-info {
+    display: flex;
+    align-items: center; /* This centers the children vertically within the container */
+    justify-content: flex-start; 
+    margin-bottom: 5px; /* Optional: Adds some space between this user info and the post content */
+}
+
+.profile-pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.user-details {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.user-details h2, .user-details p {
+    margin: 0; /* Remove default margins */
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600px;
+    color:  #550000;
+    }
+
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 4;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    color: #FFFFFF;
+    line-height: 16.5px;
+}
+
+.copyright{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.disclaimer{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.terms-service{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.nav-bar {
+list-style-type: none;
+display: flex; /* Use flexbox to create a horizontal row */
+justify-content: space-around; /* Distribute items evenly along the row */
+padding: 0;
+}
+
+.nav-bar li {
+    margin: 0;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block; /* Ensure the anchor tags behave like blocks */
+    padding: 5px; /* Add padding around the icons */
+}
